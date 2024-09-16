@@ -147,19 +147,23 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     curIndex = 0
     rotation = 0
     newList = lst
-    while len(newList)>2:
-        if(curIndex > len(newList)-1):
-            curIndex=0
-        if rotation == 2:
+    curindex = 0
+    repeat = 0
+    while len(newList) >2:
+        if repeat == 3:
+            curIndex-=1
             newList.pop(curIndex)
-            rotation == -1
-        
-        curIndex+=1
-        rotation+=1
-    return newList
+            repeat = 0
+            
+        else:
+            repeat +=1
+        if curIndex >= len(newList):
+            curIndex = 0
+        else:
+            curIndex+=1
+        print(newList)
     
-
-
+    return newList
 # this line causes the nested code to be skipped if the file is imported instead of run
 if __name__ == "__main__":
     
@@ -173,8 +177,8 @@ if __name__ == "__main__":
     assert sum_list([1, 2, 3]) == 6, "sum_list of [1,2,3] failed"
     assert mean([1, 2, 3, 4, 5]) == 3, "mean of [1,2,3,4,5] failed"
     assert median([1, 2, 3, 4, 5]) == 3, "median of [1,2,3,4,5] failed"
-
     names = ["roscoe", "kim", "woz", "solin", "law", "remess"]
+    
     assert duck_duck_goose(names) == ["roscoe", "law"]
 
     print("All tests passed!")

@@ -17,23 +17,3 @@ assert fizbuzz(5) == "Buzz", "fizzbuzz 5 test"
 assert fizbuzz(6) == "Fizz", "fizzbuzz 6 test"
 assert fizbuzz(15) == "FizzBuzz", "fizzbuzz 15 test"
 
-
-
-"""Print the fibonacci sequence up to the number n"""
-def fibonacci(n):
-
-    curNum = 1
-    lastNum = 0
-    print(lastNum)
-    if n >1:
-        print(curNum)
-        
-
-    while curNum < n:
-        
-        print(curNum+lastNum)
-        temp = lastNum
-        lastNum = curNum
-        curNum = temp+curNum
-    
-fibonacci(10)
