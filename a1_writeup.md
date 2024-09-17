@@ -21,4 +21,4 @@ Indentation matters much more in python than it does in Java. In python indentat
 
 
 3. What are some things that you learned through this assignment?
-Ive learned the basics of how to create some of the most commnly used functions such as while loops, for loops, if statements, and more. I also learned a bit about a new approach to solving problems te python way sinstead of the java way.
+Ive learned the basics of how to create some of the most commnly used functions such as while loops, for loops, if statements, and more. I also learned a bit about a new approach to solving problems the python way instead of the java way.
