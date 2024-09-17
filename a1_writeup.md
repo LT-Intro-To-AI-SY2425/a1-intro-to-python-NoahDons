@@ -17,8 +17,8 @@ It feels intuitive. The structure is pretty simple (for i in blank) and generall
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
-Indentation matters much more in python than it does in Java. In python indentation is required for loops and if statements to work, but in java it is only for organization. You also dont need to worry about what type your variable is in python when creating it where you do need to worry in Java.
+Indentation matters much more in python than it does in Java. In python indentation is required for loops and if statements to work, but in java it is only for organization. You also dont need to worry about what type your variable is in python when creating it. By contrast, you need constantly manage your variable types in Java. 
 
 
 3. What are some things that you learned through this assignment?
-Ive learned the basics of how to create some of the most commnly used functions such as while loops, for loops, if statements, and more. I also learned a bit about a new approach to solving problems the python way instead of the java way.
+Ive learned the basics of how to create some of the most commonly used functions such as while loops, for loops, if statements, and more. I also learned a bit about a new approach to solving problems the python way instead of the java way.
