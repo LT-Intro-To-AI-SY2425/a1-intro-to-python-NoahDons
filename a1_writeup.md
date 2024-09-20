@@ -13,7 +13,7 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 ## Reflection Questions
 
 1. What is your initial thoughts about the python programming language?
-It feels intuitive. The structure is pretty simple (for i in blank) and generally things are named as they should be (length of a list is len).
+It feels intuitive. The structure is pretty simple (for i in blank) and generally things are named as they should be (length of a list is len). It is a little frustrating that there arent parentheses and curly braces everywhere though. I like that aspect of java where everyhting looks more organized to me and im missing that in python.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
